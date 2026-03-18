@@ -1,0 +1,41 @@
+{
+  "schema": "aaigotchi.wallet-agency.receipt.v1",
+  "receiptHash": "0xb083fe12e9d3054ebcd65a8ac5790a91b4715ec2ba6a65fe76704aa8ff5aba1d",
+  "status": "confirmed",
+  "action": "swap-uniswap",
+  "network": "base",
+  "chainId": 8453,
+  "tokenId": "1",
+  "collection": "0x7e1c18832308D1d639A195E0a2414d7A9f650A86",
+  "agency": "0xa1d7Aceb82bad61acD931859461870eC0eb44179",
+  "vault": "0xFd8349a30B4aD0FcDC05ee49837B829B5441349b",
+  "asset": "0x0000000000000000000000000000000000000000",
+  "target": "0x6fF5693b99212Da76ad316178A184AB56D299b43",
+  "amount": "5000000000000",
+  "caller": "0xb96b48a6b190a9d509ce9312654f34e9770f2110",
+  "txHash": "0x0bb0f06500ec082cb98c237de3712aefeeb03ac16d4163471f84cb9b3f3337b2",
+  "blockNumber": "43507311",
+  "timestamp": "2026-03-18T03:19:27.716Z",
+  "note": "AAIC uniswap live",
+  "callHash": "0xb335dca1412eff82a15aa214462fece3cc159b2cb513cc6ec72d07bd109d6795",
+  "metadata": {
+    "executionMode": "bankr",
+    "swapProvider": "uniswap-trading-api",
+    "routing": "CLASSIC",
+    "requestId": "aZj1jgVuCYcEPPA=",
+    "valueWei": "5000000000000",
+    "tokenOut": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "expectedAmountOut": "11661",
+    "calldataBytes": "1230"
+  },
+  "policy": {
+    "sendEnabled": true,
+    "swapEnabled": true,
+    "nativeLimitWei": "10000000000000",
+    "erc20Limit": "0",
+    "cooldownSeconds": 0,
+    "lastActionAt": "1773802749",
+    "executor": "0xb96B48a6B190A9d509cE9312654F34E9770F2110",
+    "executorOwner": "0xb96B48a6B190A9d509cE9312654F34E9770F2110"
+  }
+}

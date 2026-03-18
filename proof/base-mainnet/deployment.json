@@ -1,0 +1,16 @@
+{
+  "project": "aaigotchi-wallet-agency",
+  "network": "base",
+  "chainId": 8453,
+  "deployer": "0xb96b48a6b190a9d509ce9312654f34e9770f2110",
+  "collection": "0x7e1c18832308D1d639A195E0a2414d7A9f650A86",
+  "agency": "0xa1d7Aceb82bad61acD931859461870eC0eb44179",
+  "deployedAt": "2026-03-18T02:57:04.766Z",
+  "deploymentMode": "bankr-create2",
+  "deployerContract": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+  "saltNamespace": "aaigotchi-wallet-agency:base:1773802595021",
+  "collectionSalt": "0x8e7e6ad299fabd1d8fb59268de6efe10c723311449c44737524661bf5b5b45a4",
+  "agencySalt": "0x26bda25296f6563de4b43086f501dac5004aacdf418af61b8fec53bacf67921a",
+  "collectionTxHash": "0x612391b4dfc0474af23eea3861d88742e23c4de313ea173b13dbd641531782f4",
+  "agencyTxHash": "0xff24ed7d7ba03efaf7a96f09a573ac582d461a3bf9ae59c20688953a286bbf03"
+}

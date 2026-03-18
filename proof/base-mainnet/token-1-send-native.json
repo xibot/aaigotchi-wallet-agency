@@ -1,0 +1,34 @@
+{
+  "schema": "aaigotchi.wallet-agency.receipt.v1",
+  "receiptHash": "0xf6782c5b8a6128602956d60b32bf5826a75df43eb8cf778c87287dc7b40df3c1",
+  "status": "confirmed",
+  "action": "send-native",
+  "network": "base",
+  "chainId": 8453,
+  "tokenId": "1",
+  "collection": "0x7e1c18832308D1d639A195E0a2414d7A9f650A86",
+  "agency": "0xa1d7Aceb82bad61acD931859461870eC0eb44179",
+  "vault": "0xFd8349a30B4aD0FcDC05ee49837B829B5441349b",
+  "asset": "native",
+  "target": "0xb96B48a6B190A9d509cE9312654F34E9770F2110",
+  "amount": "10000000000000",
+  "caller": "0xb96b48a6b190a9d509ce9312654f34e9770f2110",
+  "txHash": "0x7fdcc49c79a2a903ebab543333af62a341c98e883d2d2db0a096828e2b861766",
+  "blockNumber": "43506701",
+  "timestamp": "2026-03-18T02:59:09.277Z",
+  "note": "AAIC mainnet proof send",
+  "callHash": null,
+  "metadata": {
+    "executionMode": "bankr"
+  },
+  "policy": {
+    "sendEnabled": true,
+    "swapEnabled": false,
+    "nativeLimitWei": "10000000000000",
+    "erc20Limit": "0",
+    "cooldownSeconds": 0,
+    "lastActionAt": "0",
+    "executor": "0xb96B48a6B190A9d509cE9312654F34E9770F2110",
+    "executorOwner": "0xb96B48a6B190A9d509cE9312654F34E9770F2110"
+  }
+}

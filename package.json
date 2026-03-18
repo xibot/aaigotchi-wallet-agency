@@ -1,0 +1,41 @@
+{
+  "name": "aaigotchi-wallet-agency",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:base-sepolia": "tsx scripts/deploy-bankr.ts --network base-sepolia",
+    "deploy:base": "tsx scripts/deploy-bankr.ts --network base",
+    "mint:demo": "tsx scripts/mint-demo.ts --network base",
+    "setup:token": "tsx scripts/setup-token.ts --network base",
+    "send:demo": "tsx scripts/execute-send.ts --network base",
+    "send:erc20": "tsx scripts/execute-erc20.ts --network base",
+    "swap:call": "tsx scripts/execute-swap.ts --network base",
+    "swap:uniswap": "tsx scripts/execute-uniswap-swap.ts --network base",
+    "terminal": "tsx scripts/owner-terminal.ts",
+    "deploy:base-sepolia:local": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "deploy:base:local": "hardhat run scripts/deploy.ts --network base",
+    "deploy:base-sepolia:broadcast": "tsx scripts/deploy-bankr.ts --network base-sepolia --broadcast",
+    "deploy:base:broadcast": "tsx scripts/deploy-bankr.ts --network base --broadcast",
+    "mint:demo:broadcast": "tsx scripts/mint-demo.ts --network base --broadcast",
+    "setup:token:broadcast": "tsx scripts/setup-token.ts --network base --broadcast",
+    "send:demo:broadcast": "tsx scripts/execute-send.ts --network base --broadcast",
+    "send:erc20:broadcast": "tsx scripts/execute-erc20.ts --network base --broadcast",
+    "swap:call:broadcast": "tsx scripts/execute-swap.ts --network base --broadcast",
+    "swap:uniswap:broadcast": "tsx scripts/execute-uniswap-swap.ts --network base --broadcast"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.2.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.15.0",
+    "viem": "^2.31.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^22.13.10",
+    "hardhat": "^2.24.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

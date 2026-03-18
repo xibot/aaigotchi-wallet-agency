@@ -1,0 +1,14 @@
+{
+  "schema": "aaigotchi.wallet-agency.policy.v1",
+  "tokenId": "1",
+  "sendEnabled": true,
+  "swapEnabled": false,
+  "nativeLimitWei": "100000000000000000",
+  "erc20Limit": "0",
+  "cooldownSeconds": 3600,
+  "executor": "0x0000000000000000000000000000000000000000",
+  "allowTargets": [
+    "0x0000000000000000000000000000000000000000"
+  ],
+  "notes": "Copy this file per token and keep it aligned with onchain policy updates."
+}
