@@ -85,7 +85,7 @@ Most NFTs stop at ownership and display. They can represent identity or access, 
 
 ```json
 {
-  "videoURL": "PASTE_VIDEO_URL_HERE",
+  "videoURL": "https://github.com/xibot/aaigotchi-wallet-agency/releases/download/v0.1.0/AAi-Synthesis-Hackathon-Final-1920px.mp4",
   "coverImageURL": "PASTE_COVER_IMAGE_URL_HERE",
   "pictures": "PASTE_OPTIONAL_SCREENSHOT_URLS_HERE"
 }
