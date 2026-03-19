@@ -77,7 +77,7 @@ Most NFTs stop at ownership and display. They can represent identity or access, 
   ],
   "intention": "continuing",
   "intentionNotes": "We plan to keep developing aaigotchi as a live NFT wallet-agency system and expand the collectible, policy, and agent execution layers after the hackathon.",
-  "moltbookPostURL": "PASTE_MOLTBOOK_URL_HERE"
+  "moltbookPostURL": "https://www.moltbook.com/post/3f1a868c-7311-46e8-a3b0-61e35744b1e6"
 }
 ```
 
