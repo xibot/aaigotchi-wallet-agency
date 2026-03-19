@@ -2,6 +2,8 @@
 
 Hackathon MVP for The Synthesis.
 
+Submitted project slug: `aaigotchi-8642`.
+
 This project turns an aaigotchi NFT into a controlled onchain actor:
 
 - one NFT per collectible
